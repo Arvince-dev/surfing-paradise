@@ -1,0 +1,140 @@
+/* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    #tagline {
+        font-size: 190px !important;
+    }
+    .page-header .btn {
+        font-size: 22px !important;
+    }
+    #tagline-sub-bottom {
+        margin-bottom: 80px;
+    }
+    .col-lg-6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .img-island {
+        margin-top: 44px;
+    }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #tagline {
+        font-size: 190px !important;
+    }
+    .page-header .btn {
+        font-size: 22px !important;
+    }
+    #tagline-sub-bottom {
+        margin-bottom: 80px;
+    }
+    .col-lg-6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .img-island {
+        margin-top: 44px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #tagline {
+        font-size: 101px !important;
+    }
+    .page-header .btn {
+        font-size: 24px !important;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #tagline {
+        font-size: 120px !important;
+        line-height: 0.5;
+    }
+    #tagline-sub-top {
+        font-size: 16px;
+    }
+    
+    #tagline-sub-bottom {
+        font-size: 16px;
+    }
+    .col-lg-6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .image-height {
+        height: 265px !important;
+    }
+    .img-island {
+        margin-top: 44px;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #tagline {
+        font-size: 120px !important;
+        line-height: 0.5;
+    }
+    #tagline-sub-top {
+        font-size: 16px;
+    }
+    
+    #tagline-sub-bottom {
+        font-size: 16px;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #tagline {
+        font-size: 78px !important;
+        line-height: 0.3;
+    }
+    #tagline-sub-top {
+        font-size: 16px;
+    }
+    
+    #tagline-sub-bottom {
+        font-size: 16px;
+    }
+}
